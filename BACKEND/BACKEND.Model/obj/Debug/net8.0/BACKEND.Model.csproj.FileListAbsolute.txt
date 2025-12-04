@@ -1,0 +1,14 @@
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\bin\Debug\net8.0\BACKEND.Model.deps.json
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\bin\Debug\net8.0\BACKEND.Model.runtimeconfig.json
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\bin\Debug\net8.0\BACKEND.Model.dll
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\bin\Debug\net8.0\BACKEND.Model.pdb
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.csproj.AssemblyReference.cache
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.AssemblyInfoInputs.cache
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.AssemblyInfo.cs
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.csproj.CoreCompileInputs.cache
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.dll
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\refint\BACKEND.Model.dll
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.pdb
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\BACKEND.Model.genruntimeconfig.cache
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.Model\obj\Debug\net8.0\ref\BACKEND.Model.dll

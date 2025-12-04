@@ -1,0 +1,239 @@
+/* Wrapper full height */
+.app-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.content-aria{
+  flex: 1;
+}
+
+/* Header container */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #121212;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 24px;
+  backdrop-filter: blur(6px);
+}
+.material-icon {
+  font-family: 'Material Symbols Outlined';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  font-size: 1rem; /* tương đương text-base */
+  margin-left: 0.25rem; /* tương đương ml-1 */
+  vertical-align: middle; /* để căn chỉnh với text nếu cần */
+}
+
+.material-symbols-outlined{
+  background-color: #0a0a0a;
+  color: #ff5722;
+}
+
+
+/* Left section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  color: #ff5722;
+}
+
+.logo-text {
+  background-color: #0a0a0a;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Right buttons */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Buttons */
+.btn-primary {
+  min-width: 84px;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 8px;
+  background: #ff5722;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.btn-dark {
+  min-width: 84px;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 8px;
+  background: #424242;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover,
+.btn-dark:hover {
+  opacity: 0.8;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+/* dropdown hidden by default */
+.dropdown-menu {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  width: 180px;
+  background: #2a2a2a;
+  padding: 6px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Hidden login button */
+.hidden-btn {
+  display: none;
+}
+
+.footer {
+  background: #0a0a0a;       
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  margin-left: auto;     
+  margin-right: auto;
+
+  max-width: 80rem;      
+
+  padding-left: 24px;     
+  padding-right: 24px;
+
+  padding-top: 48px;  
+  padding-bottom: 48px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer-row {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Brand */
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  color: #ff5722; /* text-primary */
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Info text */
+.footer-info {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Social icons */
+.footer-socials {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-socials a {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: white;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Copyright */
+.footer-copy {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}

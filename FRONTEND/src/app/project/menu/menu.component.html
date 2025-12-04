@@ -1,0 +1,19 @@
+<div class="menu-container">
+  <h2>Menu Nhà Hàng</h2>
+  <span>Tìm kiếm</span>
+  <textarea></textarea>
+
+  <div *ngIf="loading">Đang tải menu...</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <div class="menu-grid" *ngIf="!loading && !error">
+    <div class="menu-card" *ngFor="let item of menuData">
+      <img [src]="item.ImgUrl" [alt]="item.ItemName">
+      <h3>{{ item.ItemName }}</h3>
+      <p>{{ item.ItemDescription }}</p>
+      <p><strong>{{ item.Price }} {{ item.Currency }}</strong></p>
+      <span class="available" *ngIf="item.IsAvailable">Còn món</span>
+      <span class="not-available" *ngIf="!item.IsAvailable">Hết món</span>
+    </div>
+  </div>
+</div>

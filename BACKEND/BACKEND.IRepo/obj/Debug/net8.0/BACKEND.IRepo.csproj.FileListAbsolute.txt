@@ -1,0 +1,11 @@
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\bin\Debug\net8.0\BACKEND.IRepo.deps.json
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\bin\Debug\net8.0\BACKEND.IRepo.dll
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\bin\Debug\net8.0\BACKEND.IRepo.pdb
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\BACKEND.IRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\BACKEND.IRepo.AssemblyInfoInputs.cache
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\BACKEND.IRepo.AssemblyInfo.cs
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\BACKEND.IRepo.csproj.CoreCompileInputs.cache
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\BACKEND.IRepo.dll
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\refint\BACKEND.IRepo.dll
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\BACKEND.IRepo.pdb
+C:\Users\Hii\Documents\ChuyenDeTongHop\BACKEND\BACKEND.IRepo\obj\Debug\net8.0\ref\BACKEND.IRepo.dll

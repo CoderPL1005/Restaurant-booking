@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "BACKEND.API.Controllers.ProjectController",
+    "Method": "getmenu",
+    "RelativePath": "api/project/getmenu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND.API.Controllers.ProjectController",
+    "Method": "getuser",
+    "RelativePath": "api/project/getuser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND.API.Controllers.ProjectController",
+    "Method": "saveuser",
+    "RelativePath": "api/project/saveuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDTO",
+        "Type": "BACKEND.Model.DTO.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,201 @@
+<main class="main-container">
+  <div class="main-content">
+    <section class="carousel-container">
+      <div class="carousel-track">
+
+        <div class="carousel-item">
+          <div class="carousel-bg"
+            style='background-image:
+          url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2ZwHtJnuDnxVkZI7-Olr7lU0rCJzAaxwqTDziM-LPYXrxK2fXsWMzWSOPVkBajqGO7Ct7OAwhfQnZe9b5BJNbmWk-yS3AfKsFVdP2zqu0xTEyt6wwLOF5jwmFThiksBAWhrQfC_6RSjhJZo6UTpUaFDw6k9yATmCODZe90HkMR8Dk5HJt6llPlJFIVC59TGZcGo-rIEC65V1apCmg4Px28n2oE8E3VsgZE5ND9nO3TEGAgXdX46ngVoep8cs7PxvqV7suMhsY4XI");'>
+          </div>
+
+          <div class="carousel-text">
+            <h3>Không gian sang trọng</h3>
+            <p>Trải nghiệm ẩm thực trong một không gian kiến trúc độc đáo.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-bg"
+            style='background-image:
+          url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwxbezLlfaIeebzm1JwxNv62ortdpM_R8BAAkJnKSfXn1-Wamo-KOo0jkImwF-ZijVReFOWyU25NzAEc1gCw9gMMWn_i3AglQ5VeRqXORcGd23pLB7bbXUetFJ1Fn7K1uS-Nn1KCv7RwCL3Elc7YwLRuB4k6Hx5BTows6wZGIe0-hrJGvTuliJrZVlEmzXbmwnf4wBKUk2110AgR7T7iAjztIHuY87-fXiwEAkNvZMKndFNpzi4KqOUmMpApCzY5IMEykU946a_VI");'>
+          </div>
+
+          <div class="carousel-text">
+            <h3>Ẩm thực tinh hoa</h3>
+            <p>Những món ăn được chế biến từ những nguyên liệu tươi ngon nhất.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-bg"
+            style='background-image:
+          url("https://lh3.googleusercontent.com/aida-public/AB6AXuCDOdvNiH9rwJ-3NIzPcCF1oZFlCxw5RtVHv4LPjd3Gzw0DpaQ9tPsvak8Cy2LRHqyJFCoo5M-bPfrqBtzxuJAwLznieLBcT06VP2ge13kxbog7jGHOZIQJSBP_ICcV5Ipt_sfYpMvQmtdsKv1TGWWwKnmzF7szNH1p9E6g1vehK6Brexj8gJP4ZIRqCPsYCddr7oIPVaDqLDhCfJ3yrLsRHAIYXEzhCbmoS2Mjuak9lIecCP0mJ_WXTWnOtPDeomCaB83yhAML6fI");'>
+          </div>
+          <div class="carousel-text">
+            <h3>Đội ngũ chuyên nghiệp</h3>
+            <p>Đầu bếp tài năng và đội ngũ nhân viên tận tâm.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-bg"
+            style='background-image:
+            url("https://lh3.googleusercontent.com/aida-public/AB6AXuAL2HN5rXJIm7NHynfrV_sRjvFdfBgBZXWmp8VqUt7LgFGXNLno0j2DfD5vJvKUaD011wkvdyvmrfwGlACwI37il6naDroL0tCJGaD0qHRSi6-Gt-B6BZq0yfgfqIapxasB8XvfOBW4LuncwsdmB1oeVu146ZdRJhvxDhKE0PKgFjc5NpgGh52-Fjh58WK1x1XQeae4WGmYEXyuCendSs4JgXSIz2wD8C3xJE3xhpewWu_sgDjH5bXjTePQ0J56vuSS8tQjDyMsdbM");'>
+          </div>
+          <div class="carousel-text">
+            <h3>Vị trí đắc địa</h3>
+            <p>Tọa lạc tại trung tâm thành phố, thuận tiện cho mọi cuộc hẹn.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <section class="booking-section">
+        <div class="booking-container">
+          <h2 class="booking-title">Đặt Bàn Ngay</h2>
+          <p class="booking-description">Vui lòng điền thông tin dưới đây để đặt bàn.</p>
+
+          <form class="booking-form" (ngSubmit) = "goBooking()">
+            <!-- Số người -->
+            <div class="form-group span-2">
+              <label for="people">Số người</label>
+              <div class="input-icon">
+                <span class="material-symbols-outlined">group</span>
+                <input type="number" id="people" name="people" [(ngModel)]="people" placeholder="2" min="1">
+              </div>
+            </div>
+
+            <!-- Ngày -->
+            <div class="form-group">
+              <label for="date">Ngày</label>
+              <div class="input-icon">
+                <span class="material-symbols-outlined">calendar_month</span>
+                <input type="date" id="date" name="date" [(ngModel)]="date">
+              </div>
+            </div>
+
+            <!-- Giờ -->
+            <div class="form-group">
+              <label for="time">Giờ</label>
+              <div class="input-icon">
+                <span class="material-symbols-outlined">schedule</span>
+                <input type="time" id="time" name="time" [(ngModel)] = "time" min="07:00" max="21:00" step="1800">
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-group span-2">
+              <label class="invisible-label">Đặt bàn</label>
+              <button type="submit" class="submit-btn">Đặt bàn</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="about-section">
+        <div class="about-content">
+          <div class="text-content">
+            <h1>
+              Không Gian Đẳng Cấp và Dấu Ấn Của Chúng Tôi
+            </h1>
+            <p>
+              Khám phá không gian kiến trúc độc đáo và những thành tựu đã làm nên tên tuổi của chúng tôi trong làng ẩm
+              thực.
+            </p>
+            <button class="btn-primary">Tìm hiểu thêm</button>
+          </div>
+
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-image"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDXCpC-r0WYxS_KDMRJkf7ys0-d44f272uioDRXdmBBT9yAmRxRDsb5wVtEexIZxyv73x2z6tkZ_4tIovYT5aswYUcOgHheeWlfzuceISl7-P_V_hpPL2KsyaHwXuuGE4D42Qj7SB6mgEACDoZD8jMSDzncrgboPn7FJudLie58b7sHdwc91Fb8t2xsWjQZ4MlzUm0G_6NNepGAfzxxuMkM9F05wS3yFq-h5MApTsrSY4xz0aDnzJV8KFsRJuWOG-9p1npNh2chwZE');">
+              </div>
+              <div class="card-text">
+                <p class="card-title">Vị trí đắc địa</p>
+                <p class="card-desc">
+                  Nhà hàng của chúng tôi tọa lạc tại vị trí trung tâm, mang đến một không gian yên tĩnh và sang trọng,
+                  lý tưởng cho mọi dịp.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAb1vEPKx7SGG8JVsdmaPZXz118LzPq8Rt8b_ovhCO9g11And1fl7uX3iT6ySLPPl8UdiTuAPP314zFZTfPn9b2SK6G6MUJSDGwurxrmxMt4f2LifGl3jlzqyudkFp_uhg1Cx1XewdNbb99UIVCUmXNsAJLgCZ1v7UztXGUhgS9wIuDZrwyrNOJP87aeXdmiPOVVr6I4SjiH3i0Z-f4xPHMwP1Ztt_630UAnZZOqSZqJURzGbq7uOi1lapPAhjyHCsZxRXJu4OAI7k');">
+              </div>
+              <div class="card-text">
+                <p class="card-title">Giải thưởng danh giá</p>
+                <p class="card-desc">
+                  Tự hào nhận được nhiều giải thưởng ẩm thực uy tín, là minh chứng cho chất lượng và sự sáng tạo không
+                  ngừng.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dishes-section">
+        <h2 class="section-title">Tinh Hoa Ẩm Thực</h2>
+
+        <div class="dishes-grid">
+          <div class="dish-card"
+            style="background-image: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 60%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCFayvSCwVMOkYkgDEzjjckKFS5Qv2LDE0fpHB1uyfqmIH0kRA3pFyKFgFyg7YKd-cPmZ99Cw5dpAXDCeQE2KQdUzAMsNvKp9Wg1eNMzUL6Eb4HlGz_hspz2v1fY0nZx7ZfzwTiAifu11OqF2pbs06yGSd2Qq7Uoh_dyC6YqyPtDra3fG_aSDVREZ5K6B81GzUisdQUaThcHWkaH6a194rg0OmSq-CCI2x0-i_y8qow1rLLlpf_663-7pfiq0UaBH3Vz04pNmuxMXA');">
+            <p class="dish-name">Bò Wagyu A5</p>
+          </div>
+          <div class="dish-card"
+            style="background-image: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 60%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuBNy1esjQlM27b193z26ZSTHCIFWyPh8Jsi9RKFZGVbCnLnzGWupo6Ge_KLRfNAEgwd4SKMxolsskkAX-aycaLkSCCtBcYbnPooZlPrho3zR2p9v11lVzgizjj45a2To9YJpggKuSL-1aUEKV4tKuQ_vHlGJ5syPniJlRGdPNJ9RVef7RSrmfh2JwB1w_NsQnXi-YsWQydtMqJvsMF_xfqvm3aGjeV74Z6-0KYc4-LUpYuEL4AQBkJ-XGlCQzWYPgtp7jBBSlCpHQ4');">
+            <p class="dish-name">Tôm hùm Alaska</p>
+          </div>
+          <div class="dish-card"
+            style="background-image: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 60%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuC5eDMjvGIl2q-SJ5DWj_zY7NxSLDyLSqvTMTqVvYmSknlT70kGwYnxBZM2V4Cdko9ykwWRsa3PdblbqE6xUWNzHrTkX2NUPNU-XIpH7bV6q44zUtzaypEQY5QSypcj3a968dJcTX-KbbZgPLwn4PJGfAOxBog0LrA4I67QfMMsFPvNNlkOxxZjiuvP8tVnxzlU4nJxwxE30rAdNFoX8ihNH2T04Mi5fn8Yr427KHIXv2cQhEhRmbBDe4YwivH0go7ENVC9z_QJqeI');">
+            <p class="dish-name">Salad Caesar đặc biệt</p>
+          </div>
+          <div class="dish-card"
+            style="background-image: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 60%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuD5hebf480_ALvTqLOhgq0zmul8lNPqP-SjbIJsQTT-auClz3CmY7CN4dH--ZHjqbbPFIJREILykPc_Idy_IN--4pU8jQieFaMjilhrA8eO4t2YegY-zkElzOgx5XjvJiuCSfowd6JjahzZhHoeknVs8VpCIZDjl37wD4-Vr9udMz94ZRzo1kH_wRijYL9Vh9vp8_vmkBCoDxcNafqBiKyO1kcevQx-TspYwxzqE4Q0I9DGkfI6tuICn0Xmh-Cv7aUx6_2oWd9fmMM');">
+            <p class="dish-name">Bánh Tiramisu</p>
+          </div>
+        </div>
+
+        <div class="dish-buttons">
+          <button class="btn btn-primary" (click)="goMenu()">
+            <span class="material-symbols-outlined">restaurant_menu</span> Xem Menu
+          </button>
+          <button class="btn btn-secondary" (click)="goRestaurantMap()">
+            <span class="material-symbols-outlined">map</span> Sơ đồ nhà hàng
+          </button>
+        </div>
+      </section>
+      <section class="location-section">
+        <div class="location-container">
+          <div class="location-info">
+            <h2 class="location-title">Vị Trí Của Chúng Tôi</h2>
+            <p class="location-desc">Dễ dàng tìm thấy chúng tôi tại địa chỉ trung tâm thành phố. Chúng tôi rất hân hạnh
+              được đón tiếp quý khách.</p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="material-symbols-outlined contact-icon">location_on</span>
+                <span>Đại học Xây dựng Hà Nội, 55 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội</span>
+              </div>
+              <div class="contact-item">
+                <span class="material-symbols-outlined contact-icon">call</span>
+                <span>(028) 3812 3456</span>
+              </div>
+              <div class="contact-item">
+                <span class="material-symbols-outlined contact-icon">mail</span>
+                <span>contact@trestaurant.com</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.640944302633!2d105.84131807593163!3d21.00702528827763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac76ccab6161%3A0x4c9ebb95543c7943!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBYw6J5IGThu7FuZyBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1716382583274!5m2!1svi!2s"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
